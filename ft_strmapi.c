@@ -6,7 +6,7 @@
 /*   By: afernan2 <afernan2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 13:34:18 by afernan2          #+#    #+#             */
-/*   Updated: 2023/03/15 14:07:53 by afernan2         ###   ########.fr       */
+/*   Updated: 2023/03/20 17:39:28 by afernan2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 		temp[i] = f(i, s[i]);
 		i++;
 	}
-	temp[i] = '\0'; 
+	temp[i] = '\0';
 	return (temp);
 }
